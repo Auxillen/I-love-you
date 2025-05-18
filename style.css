@@ -30,6 +30,7 @@ body {
   margin: 0;
   padding: 0;
   z-index: 2;
+  opacity: 0; /* Initially hidden for animation */
 }
 
 .title span.block {
@@ -48,6 +49,11 @@ body {
   color: #fff;
   font-size: 2em;
   margin-top: 20px;
+}
+
+.role p {
+  opacity: 0; /* Initially hidden for animation */
+  margin: 0;
 }
 
 .role .block {
