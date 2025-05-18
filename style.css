@@ -3,7 +3,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #000;
+  background: linear-gradient(135deg, #ffc0cb, #e0b3ff);
   font-family: 'Montserrat', sans-serif;
   overflow: hidden;
 }
@@ -21,8 +21,8 @@ body {
 
 .title {
   position: relative;
-  color: #fff;
   font-size: 4em;
+  color: white;
 }
 
 .title h1 {
@@ -30,14 +30,14 @@ body {
   margin: 0;
   padding: 0;
   z-index: 2;
-  opacity: 0; /* Initially hidden for animation */
+  opacity: 0; /* Hidden until animated */
 }
 
 .title span.block {
   position: absolute;
   width: 0%;
   height: 100%;
-  background: #f00;
+  background: #ff66cc;
   left: 0;
   top: 0;
   animation: slide 1s ease forwards;
@@ -46,21 +46,21 @@ body {
 
 .role {
   position: relative;
-  color: #fff;
+  color: white;
   font-size: 2em;
   margin-top: 20px;
 }
 
 .role p {
-  opacity: 0; /* Initially hidden for animation */
   margin: 0;
+  opacity: 0; /* Hidden until animated */
 }
 
 .role .block {
   position: absolute;
   width: 0%;
   height: 100%;
-  background: #00f;
+  background: #cc99ff;
   left: 0;
   top: 0;
   animation: slide 1s ease 1s forwards;
